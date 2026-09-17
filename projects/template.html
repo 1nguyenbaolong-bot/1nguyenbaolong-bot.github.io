@@ -1,0 +1,95 @@
+<!--
+  ==========================================================================
+  FILE MẪU ĐỂ THÊM DỰ ÁN MỚI (kể cả dự án không có trong resume)
+  ==========================================================================
+  CÁCH DÙNG:
+  1) Đổi tên file này thành tên dự án của bạn, ví dụ: robot-arm-project.html
+     (không dấu, không khoảng trắng, dùng dấu gạch ngang "-")
+  2) Sửa các chỗ có đánh dấu SỬA CHỖ NÀY bên dưới.
+  3) Vào file ../index.html, tìm phần <div class="proj-grid">, copy 1 khối
+     <a class="proj-card" href="...">...</a>, dán vào, sửa:
+       - href = tên file bạn vừa tạo, ví dụ "projects/robot-arm-project.html"
+       - số thứ tự (tag), tên dự án (h3), câu tóm tắt (teaser)
+  4) Nếu có ảnh, thay từng <div class="visual-slot">...</div> bằng
+     <img src="../images/ten-anh.jpg" alt="">
+  Không cần sửa gì trong phần <style> hay đầu file — chỉ sửa nội dung.
+  ==========================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tên dự án — Bao Long Nguyen</title> <!-- SỬA CHỖ NÀY -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
+
+<nav class="pagenav"><a href="../index.html#projects">← Back to portfolio</a></nav>
+
+<div class="sheet">
+  <header class="proj-hero">
+    <p class="label">Project 03</p> <!-- SỬA CHỖ NÀY: số thứ tự -->
+    <h1>Tên dự án của bạn</h1> <!-- SỬA CHỖ NÀY: tiêu đề ấn tượng -->
+    <span class="when">Bối cảnh (môn học / công ty / cá nhân) — Tháng năm bắt đầu – Tháng năm kết thúc</span> <!-- SỬA CHỖ NÀY -->
+    <p class="outcome">1 câu tóm tắt kết quả nổi bật nhất, càng cụ thể càng tốt (có con số thì rất tốt).</p> <!-- SỬA CHỖ NÀY -->
+  </header>
+
+  <section class="visuals-big">
+    <!-- Mỗi khối dưới đây là 1 ô ảnh. Có thể thêm/bớt (2-4 ô là đẹp). -->
+    <div class="visual-slot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="14" r="3.2"/></svg>
+      <span>Ảnh tổng thể sản phẩm/hệ thống</span>
+    </div>
+    <div class="visual-slot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="14" r="3.2"/></svg>
+      <span>Ảnh cận cảnh chi tiết</span>
+    </div>
+    <div class="visual-slot">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="14" r="3.2"/></svg>
+      <span>Ảnh quá trình làm / CAD / dữ liệu</span>
+    </div>
+  </section>
+
+  <section class="proj-body">
+    <div>
+      <h4>Motivation</h4>
+      <p>Dự án này giải quyết vấn đề gì, cho ai, trong bối cảnh nào.</p> <!-- SỬA CHỖ NÀY -->
+    </div>
+    <div>
+      <h4>My contribution</h4>
+      <ul>
+        <!-- SỬA CHỖ NÀY: mỗi dòng bắt đầu bằng động từ mạnh (designed, built, tested, programmed...) -->
+        <li>Việc đầu tiên bạn đã làm</li>
+        <li>Việc thứ hai bạn đã làm</li>
+        <li>Việc thứ ba bạn đã làm</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Technical details</h4>
+      <ul>
+        <!-- SỬA CHỖ NÀY: phần mềm, quy trình, phương pháp kỹ thuật đã dùng -->
+        <li>Công cụ / phần mềm 1</li>
+        <li>Công cụ / phương pháp 2</li>
+        <li>Công cụ / phương pháp 3</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="big">Open to full-time and internship opportunities in manufacturing and mechanical engineering.</div>
+    <div class="links">
+      <a href="mailto:1nguyenbaolong@gmail.com">1nguyenbaolong@gmail.com</a>
+      <a href="tel:+14193782318">+1 (419) 378-2318</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn — add your link</a>
+      <a href="#" target="_blank" rel="noopener">GitHub — add your link</a>
+    </div>
+  </footer>
+  <p class="fine">Bao Long Nguyen · Portfolio built as a static site, hosted on GitHub Pages.</p>
+</div>
+</body>
+</html>
