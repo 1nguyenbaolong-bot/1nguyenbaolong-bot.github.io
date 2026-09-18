@@ -52,7 +52,7 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--signal); outline-
 .scroll-cue:hover{ color:var(--signal); }
 
 .photo-slot{
-  width:130px; height:130px; border:1.5px dashed var(--line); background:var(--paper-raised);
+  width:200px; height:200px; border:1.0px dashed var(--line); background:var(--paper-raised);
   display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;
   text-align:center; padding:10px; color:var(--muted); font-size:10px; line-height:1.4; flex-shrink:0;
 }
