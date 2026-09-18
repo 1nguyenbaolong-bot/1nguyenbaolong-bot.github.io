@@ -1,11 +1,11 @@
 <!--
   ==========================================================================
-  FILE MẪU ĐỂ THÊM DỰ ÁN MỚI (kể cả dự án không có trong resume)
+  TEMPLATE FILE FOR ADDING A NEW PROJECT (including ones not in the resume)
   ==========================================================================
-  CÁCH DÙNG:
+  HƯỚNG DẪN (tiếng Việt):
   1) Đổi tên file này thành tên dự án của bạn, ví dụ: robot-arm-project.html
      (không dấu, không khoảng trắng, dùng dấu gạch ngang "-")
-  2) Sửa các chỗ có đánh dấu SỬA CHỖ NÀY bên dưới.
+  2) Sửa các chỗ có đánh dấu EDIT THIS bên dưới.
   3) Vào file ../index.html, tìm phần <div class="proj-grid">, copy 1 khối
      <a class="proj-card" href="...">...</a>, dán vào, sửa:
        - href = tên file bạn vừa tạo, ví dụ "projects/robot-arm-project.html"
@@ -16,11 +16,11 @@
   ==========================================================================
 -->
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tên dự án — Bao Long Nguyen</title> <!-- SỬA CHỖ NÀY -->
+<title>Project Name — Bao Long Nguyen</title> <!-- EDIT THIS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -29,67 +29,67 @@
 <body>
 <div class="corner-tl"></div><div class="corner-tr"></div><div class="corner-bl"></div><div class="corner-br"></div>
 
-<nav class="pagenav"><a href="../index.html#projects">← Quay lại portfolio</a></nav>
+<nav class="pagenav"><a href="../index.html#projects">← Back to portfolio</a></nav>
 
 <div class="sheet">
   <header class="proj-hero">
-    <p class="label">Dự án 03</p> <!-- SỬA CHỖ NÀY: số thứ tự -->
-    <h1>Tên dự án của bạn</h1> <!-- SỬA CHỖ NÀY: tiêu đề ấn tượng -->
-    <span class="when">Bối cảnh (môn học / công ty / cá nhân) — Tháng năm bắt đầu – Tháng năm kết thúc</span> <!-- SỬA CHỖ NÀY -->
-    <p class="outcome">1 câu tóm tắt kết quả nổi bật nhất, càng cụ thể càng tốt (có con số thì rất tốt).</p> <!-- SỬA CHỖ NÀY -->
+    <p class="label">Project 03</p> <!-- EDIT THIS: project number -->
+    <h1>Your Project Name</h1> <!-- EDIT THIS: an impactful title -->
+    <span class="when">Context (course / company / personal) — Start month/year – End month/year</span> <!-- EDIT THIS -->
+    <p class="outcome">One sentence summarizing the most impactful result — the more specific and quantified, the better.</p> <!-- EDIT THIS -->
   </header>
 
   <section class="visuals-big">
-    <!-- Mỗi khối dưới đây là 1 ô ảnh. Có thể thêm/bớt (2-4 ô là đẹp). -->
+    <!-- Each block below is one image slot. Add/remove as needed (2-4 looks best). -->
     <div class="visual-slot">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="14" r="3.2"/></svg>
-      <span>Ảnh tổng thể sản phẩm/hệ thống</span>
+      <span>Overall product/system photo</span>
     </div>
     <div class="visual-slot">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="14" r="3.2"/></svg>
-      <span>Ảnh cận cảnh chi tiết</span>
+      <span>Close-up detail photo</span>
     </div>
     <div class="visual-slot">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="14" r="3.2"/></svg>
-      <span>Ảnh quá trình làm / CAD / dữ liệu</span>
+      <span>Process / CAD / data photo</span>
     </div>
   </section>
 
   <section class="proj-body">
     <div>
-      <h4>Bối cảnh</h4>
-      <p>Dự án này giải quyết vấn đề gì, cho ai, trong bối cảnh nào.</p> <!-- SỬA CHỖ NÀY -->
+      <h4>Motivation</h4>
+      <p>What problem this project solved, for whom, and in what context.</p> <!-- EDIT THIS -->
     </div>
     <div>
-      <h4>Đóng góp của tôi</h4>
+      <h4>My contribution</h4>
       <ul>
-        <!-- SỬA CHỖ NÀY: mỗi dòng bắt đầu bằng động từ mạnh (thiết kế, xây dựng, kiểm thử, lập trình...) -->
-        <li>Việc đầu tiên bạn đã làm</li>
-        <li>Việc thứ hai bạn đã làm</li>
-        <li>Việc thứ ba bạn đã làm</li>
+        <!-- EDIT THIS: start each line with a strong verb (designed, built, tested, programmed...) -->
+        <li>First thing you did</li>
+        <li>Second thing you did</li>
+        <li>Third thing you did</li>
       </ul>
     </div>
     <div>
-      <h4>Chi tiết kỹ thuật</h4>
+      <h4>Technical details</h4>
       <ul>
-        <!-- SỬA CHỖ NÀY: phần mềm, quy trình, phương pháp kỹ thuật đã dùng -->
-        <li>Công cụ / phần mềm 1</li>
-        <li>Công cụ / phương pháp 2</li>
-        <li>Công cụ / phương pháp 3</li>
+        <!-- EDIT THIS: software, processes, technical methods used -->
+        <li>Tool / software 1</li>
+        <li>Tool / method 2</li>
+        <li>Tool / method 3</li>
       </ul>
     </div>
   </section>
 
   <footer id="contact">
-    <div class="big">Sẵn sàng cho các cơ hội việc làm toàn thời gian và thực tập trong lĩnh vực sản xuất và cơ khí.</div>
+    <div class="big">Open to full-time and internship opportunities in manufacturing and mechanical engineering.</div>
     <div class="links">
       <a href="mailto:1nguyenbaolong@gmail.com">1nguyenbaolong@gmail.com</a>
       <a href="tel:+14193782318">+1 (419) 378-2318</a>
-      <a href="#" target="_blank" rel="noopener">LinkedIn — thêm liên kết</a>
-      <a href="#" target="_blank" rel="noopener">GitHub — thêm liên kết</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn — add your link</a>
+      <a href="#" target="_blank" rel="noopener">GitHub — add your link</a>
     </div>
   </footer>
-  <p class="fine">Bao Long Nguyen · Portfolio là trang web tĩnh, được lưu trữ trên GitHub Pages.</p>
+  <p class="fine">Bao Long Nguyen · Portfolio built as a static site, hosted on GitHub Pages.</p>
 </div>
 </body>
 </html>
